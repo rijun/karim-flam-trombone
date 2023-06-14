@@ -32,6 +32,7 @@ target_include_directories(pico_btstack_audio INTERFACE
 
 set(SOURCES
         src/main.cpp
+        src/audio.S
         inc/btstack_config.h
         )
 add_executable(karim_flam_trombone ${SOURCES})
